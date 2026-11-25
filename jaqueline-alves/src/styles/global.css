@@ -1,0 +1,16 @@
+:root { --preto:#0a0a0a; --carvao:#17140f; --ouro:#c9a24b; --ouro2:#e6cd8e; --creme:#f1ead9; --claro:#faf6ee; --texto:#d9d2c0; --tinta:#2b2418;
+  --script:"Great Vibes",cursive; --sans:"Jost",system-ui,sans-serif; }
+* { box-sizing:border-box; margin:0; }
+html { scroll-behavior:smooth; scroll-padding-top:72px; }
+body { background:var(--preto); color:var(--texto); font-family:var(--sans); font-weight:300; line-height:1.65; }
+a { color:var(--ouro2); } ul { list-style:none; padding:0; }
+:focus-visible { outline:2px solid var(--ouro2); outline-offset:3px; }
+
+.btn { display:inline-flex; align-items:center; gap:.55rem; padding:.9rem 1.7rem; border-radius:999px; background:var(--ouro); color:var(--preto); font-weight:500; text-decoration:none; transition:background .2s, transform .2s; }
+.btn:hover { background:var(--ouro2); transform:translateY(-2px); }
+.btn--pequeno { padding:.55rem 1.2rem; font-size:.88rem; }
+.btn--escuro { background:var(--preto); color:var(--ouro2); } .btn--escuro:hover { background:#1d1912; }
+
+.rotulo { font-size:.72rem; letter-spacing:.2em; text-transform:uppercase; color:var(--ouro); }
+.rotulo--ouro { text-align:center; }
+.rotulo--escuro { color:var(--tinta); }

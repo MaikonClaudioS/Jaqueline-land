@@ -1,0 +1,8 @@
+.topo { position:sticky; top:0; z-index:20; display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.7rem 5vw; background:rgba(10,10,10,.94); border-bottom:1px solid #3a2f1a; backdrop-filter:blur(6px); }
+.marca { display:flex; align-items:center; gap:.7rem; text-decoration:none; color:var(--creme); }
+.marca b { display:block; font-family:var(--script); font-weight:400; font-size:1.7rem; line-height:1; color:var(--ouro); }
+.marca small { font-size:.62rem; letter-spacing:.14em; text-transform:uppercase; }
+.marca__gem { width:30px; color:var(--ouro); }
+.menu { display:flex; gap:1.6rem; }
+.menu a { color:var(--creme); text-decoration:none; font-size:.9rem; }
+.menu a:hover { color:var(--ouro); }

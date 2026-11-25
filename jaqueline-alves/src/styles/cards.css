@@ -1,0 +1,31 @@
+.foto { display:block; width:100%; aspect-ratio:4/5; object-fit:cover; }
+.foto--vazia { display:grid; place-items:center; background:linear-gradient(145deg,#1d1810,#0f0d09); }
+.foto__gem { width:42px; color:#4a3c20; }
+.redonda { width:150px; aspect-ratio:1; border-radius:50%; margin:0 auto; border:1px solid var(--ouro); }
+
+.grade { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1.5rem; max-width:1080px; margin:0 auto; }
+.card { background:#fff; padding:.8rem .8rem 1.4rem; text-align:center; box-shadow:0 4px 18px rgba(60,45,15,.1); }
+.card h3 { font-weight:500; color:var(--tinta); margin-top:.9rem; }
+.card p { font-size:.9rem; margin-bottom:.9rem; }
+
+.faixa { display:grid; grid-template-columns:1fr 1fr; background:var(--preto); }
+.faixa__foto .foto { height:100%; aspect-ratio:auto; min-height:320px; }
+.faixa__texto { padding:4rem 5vw; align-self:center; }
+.faixa h2 { font-family:var(--script); font-weight:400; font-size:clamp(2.2rem,5vw,3.2rem); color:var(--creme); line-height:1.15; margin:.4rem 0 1rem; }
+.faixa__texto p:not(.rotulo) { margin-bottom:1.5rem; max-width:30rem; }
+
+.depo { border:1px solid #3a2f1a; padding:1.6rem; }
+.estrelas { color:var(--ouro); letter-spacing:.2em; margin-bottom:.6rem; }
+.depo blockquote { font-size:.98rem; margin-bottom:1.2rem; }
+.depo figcaption b { display:block; color:var(--creme); font-weight:500; }
+.depo figcaption span { font-size:.82rem; }
+.grade--3 { grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); }
+
+.galeria { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:.8rem; max-width:1080px; margin:0 auto 1.5rem; }
+.galeria .foto { aspect-ratio:1; }
+
+.chamada { display:grid; grid-template-columns:1.3fr 1fr; gap:2rem; align-items:center; padding:4.5rem 5vw; background:linear-gradient(120deg,#d8b45e,#e9d49a); color:var(--tinta); }
+.chamada h2 { font-family:var(--script); font-weight:400; font-size:clamp(2.4rem,5vw,3.4rem); line-height:1.1; margin:.3rem 0 .8rem; }
+.chamada p:not(.rotulo) { margin-bottom:1.4rem; max-width:30rem; }
+.beneficios { display:grid; gap:.8rem; }
+.beneficios li { padding:.8rem 1.1rem; border:1px solid rgba(10,10,10,.35); border-radius:999px; font-weight:400; }

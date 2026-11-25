@@ -1,0 +1,16 @@
+@media (max-width:820px) {
+  .menu { display:none; }
+  .topo { padding:.6rem 4vw; }
+  .btn--pequeno { white-space:nowrap; }
+  .hero, .faixa, .chamada { grid-template-columns:1fr; }
+  .hero { padding:3rem 6vw; text-align:center; }
+  .hero__texto > p:not(.rotulo) { margin-inline:auto; }
+  .selos { justify-content:center; }
+  .faixa__foto .foto { min-height:240px; }
+  .faixa__texto, .chamada { text-align:center; }
+  .faixa__texto p, .chamada p { margin-inline:auto; }
+  .rodape .menu { display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; }
+}
+@media (prefers-reduced-motion:reduce) {
+  * { transition:none !important; scroll-behavior:auto; }
+}
